@@ -20,8 +20,8 @@ f=open('apikey.txt', 'r+')
 apikey=f.read()
 f.close()
 
-data = req.get("https://api.hypixel.net/player?key="+apikey+"&uuid="+uuid).json()
+data = req.get("https://api.hypixel.net/player?key=27477778-1002-491b-ab71-0a11adeb8912&uuid="+uuid).json()
 
-print(data)
+#print(data)
 print("PlayerKarma: "+str(data['player']['karma']))
 input("Press ENTER to exit")
