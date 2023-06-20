@@ -3,9 +3,6 @@ import mojang
 import time
 
 
-print("Write your API-Key in a file in this directory named apikey.txt (if it doesnt exist yet, create it)")
-input("Press ENTER key to continue")
-
 userinput = str(input("Enter the username you want to request- "))
 
 
