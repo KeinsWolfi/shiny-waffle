@@ -14,7 +14,7 @@ uuid=str(MojangReq['id'])
 
 
 
-data = req.get("https://api.hypixel.net/player?key=45e4f94d-1152-4a0c-9360-ab09828a184a&uuid="+uuid).json()
+data = req.get("https://api.hypixel.net/player?key=6e404664-f583-4207-90c6-35fb52016053&uuid="+uuid).json()
 #recentgames = req.get("https://api.hypixel.net/recentgames?key=27477778-1002-491b-ab71-0a11adeb8912&uuid="+uuid).json()
 
 
